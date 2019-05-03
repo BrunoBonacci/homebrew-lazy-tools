@@ -5,8 +5,8 @@ A collection of tools for development and more.
 
 ## Installation
 
-   brew tap BrunoBonacci/lazy-tools
-   brew install <a-tool>
+    brew tap BrunoBonacci/lazy-tools
+    brew install <tool-name>
 
 ## Tools
 
