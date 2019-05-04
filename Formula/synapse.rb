@@ -1,4 +1,4 @@
-class EasySubnet < Formula
+class Synapse < Formula
   desc     "Synapse is the smart way to connect and configure docker containers"
   homepage "https://github.com/BrunoBonacci/synapse.git"
   url      "https://github.com/BrunoBonacci/synapse/releases/download/0.4.0/synapse-homebrew-Darwin-x86_64.tar.gz"
