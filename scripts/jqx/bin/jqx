@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export BASE=$(dirname $0)
+
+$BASE/plkx -e "(def in (-> in JSON.parse (js->clj :keywordize-keys true))) nil" "$@"

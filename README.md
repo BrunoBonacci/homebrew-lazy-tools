@@ -19,3 +19,4 @@ A collection of tools for development and more.
     dependencies such as: environment variables, docker standard
     variables (to come: Kubernetes discovery API, Consul discovery
     API, Consul configuration API, etcd configuration API).
+  * **jqx** Like jq but with Clojure(Script) expressions

@@ -1,0 +1,28 @@
+#!/bin/bash
+
+if [ "$(which plk)" = "" ] ; then
+  echo "plkx requires Planck (plk) to be installed and available in the PATH."
+  exit 1
+fi
+
+function plkr(){
+
+  plk -D 'com.brunobonacci/where:0.5.1'                     \
+      -e "(require '[planck.core :refer [*in* slurp] :as p] \
+                   '[planck.io :as io]                      \
+                   '[planck.shell :as sh]                   \
+                   '[planck.io :as http]                    \
+                   '[planck.environ :refer [env]]           \
+                   '[clojure.string :as str]                \
+                   '[where.core :refer [where]])"           \
+                   "$@"
+
+}
+
+
+if [ $# = 0 ] ; then
+    echo "Staring REPL"
+    plkr --repl
+else
+    plkr -e "(def in (slurp *in*)) nil" "$@"
+fi
