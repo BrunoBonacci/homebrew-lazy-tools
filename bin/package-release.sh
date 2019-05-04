@@ -12,7 +12,7 @@ BASE=$(dirname $0)/..
 echo '(-) '"creating /tmp/$PKG"
 rm -fr /tmp/$PKG/
 mkdir -p /tmp/$PKG/
-tar -zcvf /tmp/$PKG/$PKG-hoomebrew.tar.gz -C $BASE/scripts/$PKG .
+tar -zcvf /tmp/$PKG/$PKG-homebrew.tar.gz -C $BASE/scripts/$PKG .
 shasum -a 256 /tmp/$PKG/* > /tmp/$PKG/$PKG.sha
 
 echo '(-) '"package ready in /tmp/$PKG"
