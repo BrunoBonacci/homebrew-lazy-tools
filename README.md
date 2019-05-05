@@ -10,6 +10,10 @@ A collection of tools for development and more.
 
 ## Tools
 
+  * [**1cfg**](https://github.com/BrunoBonacci/1config) A command-line
+    tool to manage multiple environments and application configuration
+    safely and effectively.
+    - `brew install 1cfg`
   * [**easy-subnet**](https://github.com/BrunoBonacci/easy-subnet) - A
     command-line tool for easy split subnets into equally sized
     networks.
