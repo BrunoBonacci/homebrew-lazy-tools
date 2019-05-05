@@ -10,7 +10,7 @@ A collection of tools for development and more.
 
 ## Tools
 
-  * [**1cfg**](https://github.com/BrunoBonacci/1config) A command-line
+  * [**one-config**](https://github.com/BrunoBonacci/1config) A command-line
     tool to manage multiple environments and application configuration
     safely and effectively.
     - `brew install 1cfg`
