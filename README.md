@@ -11,7 +11,7 @@ A collection of tools for development and more.
 ## Tools
 
   * [**one-config**](https://github.com/BrunoBonacci/1config) - [`platform independent`]
-    - `brew install 1cfg`
+    - `brew install one-config`
     - A command-line tool to manage multiple environments and
     application configuration safely and effectively.
 
