@@ -15,12 +15,12 @@ A collection of tools for development and more.
     - A command-line tool to manage multiple environments and
     application configuration safely and effectively.
 
-  * [**easy-subnet**](https://github.com/BrunoBonacci/easy-subnet) - [`mac` | `linux` | `platform independent`]
+  * [**easy-subnet**](https://github.com/BrunoBonacci/easy-subnet) - [`mac` | `linux` ]
     - `brew install easy-subnet`
     - A command-line tool for easy split subnets into equally sized
     networks.
 
-  * [**synapse**](https://github.com/BrunoBonacci/synapse) - [`mac` | `linux` | `platform independent`]
+  * [**synapse**](https://github.com/BrunoBonacci/synapse) - [`mac` | `linux` ]
     - `brew install synaspe`
     - Synapse is the smart way to connect and configure docker
     containers. It uses a number of strategies to retrieve
@@ -32,3 +32,6 @@ A collection of tools for development and more.
   * [**jqx**](./doc/jqx/README.md) - [`mac` | `linux`]
     - `brew install jqx`
     - Like jq but with Clojure(Script) expressions.
+
+
+*NOTE: `platform independent` packages require JDK8+ installed*
