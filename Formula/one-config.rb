@@ -12,5 +12,6 @@ class OneConfig < Formula
 
   def install
     bin.install "1cfg"
+    bin.install "1cfg.jar"
   end
 end
