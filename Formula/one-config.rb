@@ -4,9 +4,9 @@
 class OneConfig < Formula
   desc     "A command-line tool to manage multiple environments and application configuration safely and effectively."
   homepage "https://github.com/BrunoBonacci/1config.git"
-  url      "https://github.com/BrunoBonacci/1config/releases/download/0.10.0/1cfg-homebrew.tar.gz"
-  sha256   "fc6c84da1c6ab0bce562601772ec4d45aa7d18fb7a83955955e5c1eaa8e8875d"
-  version  "0.10.0"
+  url      "https://github.com/BrunoBonacci/1config/releases/download/0.10.1/1cfg-homebrew.tar.gz"
+  sha256   "a8a5fc4a24a5310853a8f92f24e12e5c781b5c446d1ed48606f6c1bbbac2cc91"
+  version  "0.10.1"
 
   bottle :unneeded
 
