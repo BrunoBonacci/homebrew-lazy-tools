@@ -1,7 +1,7 @@
 ##
 ##
 ##
-class OneConfig < Formula
+class RollingUpdate < Formula
   desc     "A command line tool for automated rolling update of auto-scaling groups."
   homepage "https://github.com/BrunoBonacci/rolling-update"
   url      "https://github.com/BrunoBonacci/rolling-update/releases/download/0.2.0/rolling-update-homebrew.tar.gz"
