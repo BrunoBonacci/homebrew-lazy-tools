@@ -15,6 +15,10 @@ A collection of tools for development and more.
     - A command-line tool to manage multiple environments and
     application configuration safely and effectively.
 
+  * [**rolling-update**](https://github.com/BrunoBonacci/rolling-update) - [`platform independent`]
+    - `brew install rolling-update`
+    - A command line tool for automated rolling update of auto-scaling groups.
+
   * [**easy-subnet**](https://github.com/BrunoBonacci/easy-subnet) - [`mac` | `linux` ]
     - `brew install easy-subnet`
     - A command-line tool for easy split subnets into equally sized

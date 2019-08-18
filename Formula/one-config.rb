@@ -1,5 +1,5 @@
 ##
-## taken from https://github.com/sathyavijayan/homebrew-kapi/blob/master/Formula/easy-subnet.rb
+##
 ##
 class OneConfig < Formula
   desc     "A command-line tool to manage multiple environments and application configuration safely and effectively."
