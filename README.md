@@ -8,6 +8,10 @@ A collection of tools for development and more.
     brew tap BrunoBonacci/lazy-tools
     brew install <tool-name>
 
+## Version update of a package/tool
+
+    brew update && brew upgrade <tool-name>
+
 ## Tools
 
   * [**one-config**](https://github.com/BrunoBonacci/1config) - [`platform independent`]
