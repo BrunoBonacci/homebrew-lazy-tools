@@ -8,8 +8,6 @@ class OneConfig < Formula
   sha256   "9915258f941a4b15472fe139762a0cd38b8e71dbd674596ac61729a68ca2127d"
   version  "0.16.4"
 
-  bottle :unneeded
-
   def install
     bin.install "1cfg"
     bin.install "1cfg.jar"

@@ -15,8 +15,6 @@ class EasySubnet < Formula
 
   depends_on "curl"
 
-  bottle :unneeded
-
   def install
     bin.install "easy-subnet"
   end

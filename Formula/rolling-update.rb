@@ -8,8 +8,6 @@ class RollingUpdate < Formula
   sha256   "eead922f500af9ea88b040a7b2d8c5ff196342f9389b0779aeb927fa498c7951"
   version  "0.3.1"
 
-  bottle :unneeded
-
   def install
     bin.install "rolling-update"
     bin.install "rolling-update.jar"

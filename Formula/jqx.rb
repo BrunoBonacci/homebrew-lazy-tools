@@ -7,8 +7,6 @@ class Jqx < Formula
 
   depends_on "planck"
 
-  bottle :unneeded
-
   def install
     bin.install "jqx"
     bin.install "plkx"
