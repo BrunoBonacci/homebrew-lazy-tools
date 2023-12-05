@@ -1,29 +1,17 @@
 # taken from: https://github.com/Homebrew/homebrew-core/blob/98e7ef3fc8be631328cd9b6ee29540f110c3e286/Formula/g/gnupg%402.2.rbg
-class GnupgAT22 < Formula
-  desc "GNU Pretty Good Privacy (PGP) package"
+class MyGnupgAT22 < Formula
+  desc "My version of GNU Pretty Good Privacy (PGP) package"
   homepage "https://gnupg.org/"
   url "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.41.tar.bz2"
   sha256 "13f3291007a5e8546fcb7bc0c6610ce44aaa9b3995059d4f8145ba09fd5be3e1"
   license "GPL-3.0-or-later"
+  version  "2.2.41"
 
   livecheck do
     url "https://gnupg.org/ftp/gcrypt/gnupg/"
     regex(/href=.*?gnupg[._-]v?(2\.2(?:\.\d+)+)\.t/i)
   end
 
-  bottle do
-    sha256 arm64_sonoma:   "7f0efbe239c4226b8b56ab44d5880e69318df8d6d5f3f34ee5994d65073fed23"
-    sha256 arm64_ventura:  "5789285b2a977cf20b61a346fcf44f5260a20af5432d0cc62732a89609e3c828"
-    sha256 arm64_monterey: "e21c9ae6576afb03b728ed48a4a5a2458bf23cff71944d5f93939d02cca148ee"
-    sha256 arm64_big_sur:  "8fd172c5b153ea13239e921c186329218be6d4506ff4e91167753c756dc1d92c"
-    sha256 sonoma:         "a033569e3c2b8d075e43d039bfb5c28187619a2116da6da81b63659d3f67148a"
-    sha256 ventura:        "35a9d856bd6a1abe7585291295883d3f68d54076af55e881fc0356bcdbd84f88"
-    sha256 monterey:       "1ded70c04491779a692124ff3530e75bff9ed48a0d1d5d4448a03ac59424b3bb"
-    sha256 big_sur:        "00c4f5f0629f45826b4c1c163596c32f13e726c24c85149eb34267901ca0ad10"
-    sha256 x86_64_linux:   "e407d01641735fdeeb789ca26ee6dc4d8dfd445202c9612316981d5209314901"
-  end
-
-  keg_only :versioned_formula
 
   depends_on "pkg-config" => :build
   depends_on "gettext"
